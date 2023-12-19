@@ -1,0 +1,82 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.navigation{
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 50px;
+}
+.navigation > a{
+	width: 150px;
+	text-decoration: none;
+	color: black
+}
+.activeAnchor{
+	color: blue !important;
+}
+
+
+.main_head{
+	font-size: 24px;
+	text-align: center;
+}
+.youtubers{
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-template-rows: : max-content max-content;
+	justify-content: space-around;
+	grid-gap: 20px;
+}
+.languages_info_container, .developers, .books{
+	display: grid;
+	grid-template-columns: max-content max-content max-content;
+	grid-template-rows: : max-content max-content;
+	justify-content: space-around;
+}
+.language_info{
+	width: 300px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.language_info_image{
+	width: 200px;
+	border-radius: 50%;
+}
+.language_info_description{
+	text-align: center;
+}
+.donate_text{
+	text-align: center;
+}
+.media_anchor{
+	color: 	blue;
+	text-decoration: none;
+}
+.developer, .youtuber{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.developer>img, .youtuber>img{
+	width: 300px;
+	border-radius: 50%;
+}
+.book{
+	width: 	300px
+}
+.center-text{
+	text-align:center;
+}
+body{
+	margin:0px;
+	padding :0px;
+}
+{
+.footer{
+	background : blue;
+	height:100px
+
+	}
+}
+}
